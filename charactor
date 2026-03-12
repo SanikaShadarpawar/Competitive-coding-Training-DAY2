@@ -1,0 +1,11 @@
+-- #wap to accept any charactor and check the entered charactor is upper case ,lower case,digit and special symbol
+ch =ord(input("Enter any char"))
+if ch>=65 and ch<=91:
+    print("your entered char in upper case")
+elif ch>=97 and ch<=122:
+    print("your entered char in lower case")
+elif ch>=48 and ch<=57:
+    print("your entered char in digit")
+else:
+  print("your entered char is in special symbol")
+
